@@ -3,7 +3,7 @@ from openai import OpenAI, AssistantEventHandler
 from typing_extensions import override
 
 # Initialize OpenAI client with your API key
-client = OpenAI(api_key="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")
+client = OpenAI()
 
 # Function to interact with the assistant
 def interact_with_assistant(prompt):
